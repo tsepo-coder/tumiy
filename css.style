@@ -1,0 +1,79 @@
+/* General page styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #f0f8ff, #e6ffe6);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background: url('lesotho-mountains.jpg') no-repeat center center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+/* Navigation bar */
+nav {
+  background-color: #004d00;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+/* Section styling */
+section {
+  padding: 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section h2 {
+  color: #004d00;
+  border-bottom: 2px solid #004d00;
+  padding-bottom: 10px;
+}
+
+/* Cards for attractions */
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 20px 0;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Footer styling */
+footer {
+  background-color: #004d00;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+
